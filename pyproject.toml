@@ -1,9 +1,0 @@
-[tool.robocop]
-exclude = ["0201", "1007", "0203", "0320", "0506", "0508", "0916"]
-ignore = ["QuickTest.robot"]
-configure = [
-    "too-long-test-case:max_len:45",
-    "too-long-keyword:max_len:75",
-    "too-many-calls-in-keyword:max_calls:25"
-]
-no_recursive = true
