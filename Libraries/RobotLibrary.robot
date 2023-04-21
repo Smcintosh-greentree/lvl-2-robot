@@ -21,7 +21,7 @@ Order robots from RobotSpareBin Industries Inc.
 
 
 *** Keywords ***
-Open the intranet website
+Open the intranet website Library
     Open Available Browser    https://robotsparebinindustries.com/#/robot-order
 
 Close annoying popup
