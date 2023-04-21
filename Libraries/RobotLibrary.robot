@@ -1,36 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@Smcintosh-greentree 
-Smcintosh-greentree
-/
-lvl-2-robot
-Public
-Fork your own copy of Smcintosh-greentree/lvl-2-robot
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Beta Try the new code view
-lvl-2-robot/tasks.robot
-@Smcintosh-greentree
-Smcintosh-greentree Initial Commit
-Latest commit 261dc5e 2 days ago
- History
- 1 contributor
-84 lines (69 sloc)  2.87 KB
- 
-
 *** Settings ***
 Documentation       Orders robots from RobotSpareBin Industries Inc.
 ...                 Saves the order HTML receipt as a PDF file.
@@ -54,7 +21,7 @@ Order robots from RobotSpareBin Industries Inc.
 
 
 *** Keywords ***
-Open the intranet website
+Open the intranet website Library
     Open Available Browser    https://robotsparebinindustries.com/#/robot-order
 
 Close annoying popup
@@ -114,12 +81,6 @@ Get orders
 Assert Order Success
     Wait Until Page Contains Element    id:receipt
     Location Should Be    https://robotsparebinindustries.com/#/robot-order
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
 Status
 Docs
 Contact GitHub
