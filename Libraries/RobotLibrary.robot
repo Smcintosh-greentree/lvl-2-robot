@@ -12,14 +12,6 @@ Library             RPA.PDF
 Library             RPA.Archive
 
 
-*** Tasks ***
-Order robots from RobotSpareBin Industries Inc.
-    Open the intranet website
-    Fill out form for each order
-    Create Zip File Of All Receipts
-    [Teardown]    Close Browser
-
-
 *** Keywords ***
 Open the intranet website Library
     Open Available Browser    https://robotsparebinindustries.com/#/robot-order
