@@ -6,7 +6,10 @@ setup(
     description='My custom Robot Framework library',
     author='Your Name',
     author_email='your.email@example.com',
-    packages=['TestLibrary', 'tasks', 'Libraries'],
+    packages=['Libraries'],
+    package_data={
+        'sample': ['Libraries/RobotLibrary.robot'],
+    },
     install_requires=[
         'robotframework'
     ]
