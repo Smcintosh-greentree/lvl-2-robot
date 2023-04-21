@@ -7,6 +7,9 @@ setup(
     author='Your Name',
     author_email='your.email@example.com',
     packages=['Libraries'],
+    package_data={
+        'sample': ['Libraries/RobotLibrary.robot'],
+    },
     install_requires=[
         'robotframework'
     ]
