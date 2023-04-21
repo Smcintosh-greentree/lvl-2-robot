@@ -73,12 +73,3 @@ Get orders
 Assert Order Success
     Wait Until Page Contains Element    id:receipt
     Location Should Be    https://robotsparebinindustries.com/#/robot-order
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-lvl-2-robot/tasks.robot at master · Smcintosh-greentree/lvl-2-robot
